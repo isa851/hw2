@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.container-input{
+  display: flex;
+  justify-content: center;
+}
+.container-input input{
+    width: 450px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+.container-input button{
+    width: 110px;
+    border-radius: 0px 20px 20px 0px;
+    height: 40px;
+    border: none;
+    border: solid 1px black;
+}
+.parent{
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-vector/nature-sky-cloudscape-blue-day-weather-white-clouds-cloudy-beauty-fluffy-heaven-air-light-sunlight_597121-6453.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.65;
+    padding: 30px 0;
+    
+}
+.parent-data{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.items1{
+    display: flex;
+    align-items: center;
+}
+.items1 p{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 90, 154);
+}
+.items2{
+    width: 280px;
+    height: 100px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: radial-gradient(circle, rgba(246,246,255,1) 0%, rgba(193,193,193,1) 100%);
+}
